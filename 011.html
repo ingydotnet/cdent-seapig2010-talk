@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>011</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+function navigate(e) {
+    var keynum = (window.event) // IE
+        ? e.keyCode
+        : e.which;
+    if (keynum == 8) {
+        window.location = "010z" + ".html";
+        return false;
+    }
+    if (keynum == 13 || keynum == 32) {
+        window.location = "012" + ".html";
+        return false;
+    }
+    if (keynum == 73 || keynum == 105) {
+        window.location = "index.html";
+        return false;
+    }
+    return true;
+}
+</script>
+</head>
+<body onkeypress="return navigate(event)">
+<pre>
+          C'Dent is a Portable Module Programming Language
+     
+     * Modules don't need to be fancy under the hood
+     * Useful and _portable_ modules can be baked w/ staples:
+       * Modules, Classes &amp; Methods
+       * Loops &amp; Conditionals
+       * Variables &amp; Assignments
+       * Builtin Functions &amp; Standard Library
+       * Module Inclusion &amp; Exceptional Handling
+     
+     * C'Dent is a syntaxless programming language
+     * C'Dent is a multisyntax programming language
+     
+     * C'Dent defines a &quot;Common'DEnomiNaTor&quot; _Model_
+
+
+
+</pre>
+</body>

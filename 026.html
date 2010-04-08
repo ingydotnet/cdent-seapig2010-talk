@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>026</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+function navigate(e) {
+    var keynum = (window.event) // IE
+        ? e.keyCode
+        : e.which;
+    if (keynum == 8) {
+        window.location = "025" + ".html";
+        return false;
+    }
+    if (keynum == 13 || keynum == 32) {
+        window.location = "027" + ".html";
+        return false;
+    }
+    if (keynum == 73 || keynum == 105) {
+        window.location = "index.html";
+        return false;
+    }
+    return true;
+}
+</script>
+</head>
+<body onkeypress="return navigate(event)">
+<pre>
+
+
+
+
+                               AcmeDoc
+     
+     * Not the real name...
+     * What good are modules without documentation?
+     * AcmeDoc? is like C'Dent for doc
+     * Foo.rst &gt; Foo.pod &gt; Foo.asc &gt; Foo.wiki &gt; Foo.html
+
+
+
+
+
+
+
+</pre>
+</body>
