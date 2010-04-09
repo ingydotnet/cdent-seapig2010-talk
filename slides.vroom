@@ -69,6 +69,8 @@ Let's get right into it...
 ----
 == Ingy döt Net and C'Dent
 
+Tonight you will learn:
+
 * What is C'Dent?
 * Who is Ingy?
 * Why is he writing C'Dent?
@@ -128,11 +130,15 @@ Let's get right into it...
 
 * Modules don't need to be fancy under the hood
 * Useful and _portable_ modules can be baked w/ staples:
+
   * Modules, Classes & Methods
   * Loops & Conditionals
   * Variables & Assignments
   * Builtin Functions & Standard Library
   * Module Inclusion & Exceptional Handling
+
+----
+== C'Dent is a Portable Module Programming Language
 
 * C'Dent is a syntaxless programming language
 * C'Dent is a multisyntax programming language
@@ -144,14 +150,15 @@ Let's get right into it...
 
 * Want to learn a new language?
   * Write some C'Dent and compile it to that language
+  * Get Outpyde and Meet Your Neighbors!
+
 +* Got a neat idea?
   * Make a module
   * Share it with everyone
+
 +* Know a great module?
   * Port it to C'Dent
   * Share it with everyone
-
-+* Get Outside and Meet Your Neighbors!
 
 ----
 == Dive Back In
@@ -178,6 +185,7 @@ Let's get right into it...
 * http://pypi.python.org/pypi/cdent/
 * http://http://github.com/ingydotnet/cdent/
   * NOTE: teach ingy about easy_install
+  * Learn how to depend on pyyaml
 
 * Installs bin/cdent
 * Lots of modules:
@@ -206,10 +214,11 @@ Let's take a looksy...
 ----
 == Under the Hood
 
-Compilation
-* Parse
-* Analyze
-* Emit
+Compilation is divided into 3 steps:
+
+* Parse - Source to AST
+* Analyze - Detect and Validate types
+* Emit - Create language specific modules
 
 ----
 == C'Dent Design Goals
@@ -308,3 +317,13 @@ There are some deep issues to wrestle with.
 == The End
 
 Any Questions?
+
+.
+
+.
+
+Slides are here:
+
+http://ingydotnet.github.com/cdent-seapig2010-talk/
+
+
