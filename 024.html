@@ -8,7 +8,7 @@ function navigate(e) {
         ? e.keyCode
         : e.which;
     if (keynum == 8) {
-        window.location = "023" + ".html";
+        window.location = "023z" + ".html";
         return false;
     }
     if (keynum == 13 || keynum == 32) {
@@ -29,12 +29,12 @@ function navigate(e) {
 
 
 
-                    C Code Generation (Advanced)
+                 External Module Wrapping (Advanced)
      
-     * C'Dent can emit C or C++ for Python
-     * SWIG can wrap it back to a Python extension module
+     * Everything that a C'Dent module imports must be C'Dent
+     * if foo.cd.py imports 'twisted', it won't work on Perl
      
-        foo.cd.py &gt; foo.cpp &gt; foo.o/foo.h &gt; SWIG &gt; foo.py
+     * Need to define a C'Dent wrapper for common modules
 
 
 
