@@ -1,0 +1,544 @@
+
+
+                                 ----                                 
+
+              C'Dent -- An Acmeist Programming Language
+
+                            Ingy döt Net
+
+                       SeaPig - 8 April, 2010
+
+                          http://cdent.org
+
+                                 ----                                 
+
+                              Welcome!
+     
+     * My (legal) name is Ingy dot Net
+
+                                 ----                                 
+
+                              Welcome!
+     
+     * My (legal) name is Ingy dot Net
+       * My Real Name is Ingy döt Net
+     
+
+                                 ----                                 
+
+                              Welcome!
+     
+     * My (legal) name is Ingy dot Net
+       * My Real Name is Ingy döt Net
+     
+     * I'm a long time SPUGger
+       * Over 100 modules on CPAN
+       * Been to a couple SeaPigs in the past
+       * Been to a couple Seattle.rb-s
+     
+
+                                 ----                                 
+
+                              Welcome!
+     
+     * My (legal) name is Ingy dot Net
+       * My Real Name is Ingy döt Net
+     
+     * I'm a long time SPUGger
+       * Over 100 modules on CPAN
+       * Been to a couple SeaPigs in the past
+       * Been to a couple Seattle.rb-s
+     
+     * I'm very new to Python
+       * Only 2 modules on PyPi 
+       * Please teach me tonight!
+
+                                 ----                                 
+
+                              Welcome!
+
+                         Who Are You Guys???
+
+                                 ----                                 
+
+                          Dive into C'Dent
+     
+     
+     Let's get right into it...
+     
+       Here is a C'Dent Python Module called `world.cd.py`:
+
+                                 ----                                 
+
+     """\
+     This is World class :)
+     """
+     
+     class World():
+         def greet(self):
+             print "Hello, world"
+
+                                 ----                                 
+
+                          Dive into C'Dent
+     
+     > cdent --help
+     > cdent --version
+     
+
+                                 ----                                 
+
+                          Dive into C'Dent
+     
+     > cdent --help
+     > cdent --version
+     
+     > cdent --compile --in=world.py --out=rb
+     > cdent --compile --in=world.py --out=pm
+     > cdent --compile --in=world.py --out=js
+     > cdent --compile --in=world.py --out=php
+     > cdent --compile --in=world.py --out=py
+     
+
+                                 ----                                 
+
+                          Dive into C'Dent
+     
+     > cdent --help
+     > cdent --version
+     
+     > cdent --compile --in=world.py --out=rb
+     > cdent --compile --in=world.py --out=pm
+     > cdent --compile --in=world.py --out=js
+     > cdent --compile --in=world.py --out=php
+     > cdent --compile --in=world.py --out=py
+     
+     > cdent --compile --in=world.py --out=pm6
+
+                                 ----                                 
+
+                          Dive into C'Dent
+     
+     > cdent --help
+     > cdent --version
+     
+     > cdent --compile --in=world.py --out=rb
+     > cdent --compile --in=world.py --out=pm
+     > cdent --compile --in=world.py --out=js
+     > cdent --compile --in=world.py --out=php
+     > cdent --compile --in=world.py --out=py
+     
+     > cdent --compile --in=world.py --out=pm6
+     > cdent --compile --in=world.py --out=py3
+
+                                 ----                                 
+
+                      Ingy döt Net and C'Dent
+     
+     Tonight you will learn:
+     
+     * What is C'Dent?
+     * Who is Ingy?
+     * Why is he writing C'Dent?
+       * Who is C'Dent?
+     
+
+                                 ----                                 
+
+                      Ingy döt Net and C'Dent
+     
+     Tonight you will learn:
+     
+     * What is C'Dent?
+     * Who is Ingy?
+     * Why is he writing C'Dent?
+       * Who is C'Dent?
+     
+     * Why do the slides look like Vim?
+
+                                 ----                                 
+
+                    Ingy döt Net in Five Minutes
+     
+     * High School Computer Club
+     * Fortran on Punchcards
+     * IBM Assembler for a Living
+     * Assembler to Perl Overnight
+     * Inline.pm and OSCON
+     * YAML and ActiveState
+     * Kwiki, Taiwan, Gugod and Audrey
+     * Jemplate, Socialtext and Chris D
+     * pQuery, PyYaml and Porting
+     * C'Dent, TestML and Acmeism
+
+                                 ----                                 
+
+                               Acmeism
+     
+     * Languages Divide People (Programmers)
+     * Tower of Babel Effect
+     * All Programming Languages are the Same!!!
+     * Acmeists Rise Above Language
+     * OSCON and OSDC
+     * SPUG and SeaPig
+     
+                   Acmeism
+                   =======
+         Mountaintops, Roadrunners,
+        Perl Bleach, Russian Poetry
+                and joker.com
+
+                                 ----                                 
+
+                  Modules Are Our Greatest H.O.P.E.
+     
+     * Every modern programming language has modules.
+     * Every modern programmer can write modules...
+       * And share them!
+     
+
+                                 ----                                 
+
+                  Modules Are Our Greatest H.O.P.E.
+     
+     * Every modern programming language has modules.
+     * Every modern programmer can write modules...
+       * And share them!
+     
+     * Modules make programming easy (hahaha)
+     * IC Chips for Software
+     * Modules keep things DRY
+     * Ideas Encapsulated in Code
+     
+
+                                 ----                                 
+
+                  Modules Are Our Greatest H.O.P.E.
+     
+     * Every modern programming language has modules.
+     * Every modern programmer can write modules...
+       * And share them!
+     
+     * Modules make programming easy (hahaha)
+     * IC Chips for Software
+     * Modules keep things DRY
+     * Ideas Encapsulated in Code
+     
+     * Programming is for Everyone
+     * Please write more modules!
+     
+
+                                 ----                                 
+
+                  Modules Are Our Greatest H.O.P.E.
+     
+     * Every modern programming language has modules.
+     * Every modern programmer can write modules...
+       * And share them!
+     
+     * Modules make programming easy (hahaha)
+     * IC Chips for Software
+     * Modules keep things DRY
+     * Ideas Encapsulated in Code
+     
+     * Programming is for Everyone
+     * Please write more modules!
+     
+     * Hack Once, Please Everyone
+
+                                 ----                                 
+
+          C'Dent is a Portable Module Programming Language
+     
+     * Modules don't need to be fancy under the hood
+     * Useful and _portable_ modules can be baked w/ staples:
+     
+       * Modules, Classes & Methods
+       * Loops & Conditionals
+       * Variables & Assignments
+       * Builtin Functions & Standard Library
+       * Module Inclusion & Exceptional Handling
+
+                                 ----                                 
+
+          C'Dent is a Portable Module Programming Language
+     
+     * C'Dent is a syntaxless programming language
+     * C'Dent is a multisyntax programming language
+     
+     * C'Dent defines a "Common'DEnomiNaTor" _Model_
+
+                                 ----                                 
+
+                      What is C'Dent Good For?
+     
+     * Want to learn a new language?
+       * Write some C'Dent and compile it to that language
+       * Get Outpyde and Meet Your Neighbors!
+     
+
+                                 ----                                 
+
+                      What is C'Dent Good For?
+     
+     * Want to learn a new language?
+       * Write some C'Dent and compile it to that language
+       * Get Outpyde and Meet Your Neighbors!
+     
+     * Got a neat idea?
+       * Make a module
+       * Share it with everyone
+     
+
+                                 ----                                 
+
+                      What is C'Dent Good For?
+     
+     * Want to learn a new language?
+       * Write some C'Dent and compile it to that language
+       * Get Outpyde and Meet Your Neighbors!
+     
+     * Got a neat idea?
+       * Make a module
+       * Share it with everyone
+     
+     * Know a great module?
+       * Port it to C'Dent
+       * Share it with everyone
+
+                                 ----                                 
+
+                            Dive Back In
+     
+     > cdent --compile --in=world.cd.py --to=cd.yaml --debug=1
+     
+     > cdent --compile --in=world.cd.py --out=foo.cd.yaml
+     
+     > cdent --compile --in=foo.cd.yaml --to=py
+
+                                 ----                                 
+
+                          What's in a Name?
+     
+     * world.py
+     * world.cd.py
+     * world.cd.js
+     * world.cd.yaml
+     * world.cd.xml
+     * world.java
+
+                                 ----                                 
+
+                C'Dent is Just Another Python Module
+     
+     * http://pypi.python.org/pypi/cdent/
+     * http://http://github.com/ingydotnet/cdent/
+       * NOTE: teach ingy about easy_install
+       * Learn how to depend on pyyaml
+     
+     * Installs bin/cdent
+     * Lots of modules:
+       * cdent
+       * cdent.command
+       * cdent.compiler
+       * cdent.parser.*
+       * cdent.parser.*.grammar
+       * cdent.ast
+       * cdent.grammar
+       * cdent.emitter.*
+       * cdent.runtime
+
+                                 ----                                 
+
+                     The C'Dent Parser Grammars
+     
+     C'Dent uses a grammar that is a Python class generated from
+     preprocessed YAML files that contain Regexp based rules.
+     
+     Let's take a looksy...
+     
+         * ../cdent/cdent/parser/
+         * ../cdent/cdent/parser/python/grammar
+         * ../cdent/src
+
+                                 ----                                 
+
+                           Under the Hood
+     
+     Compilation is divided into 3 steps:
+     
+     * Parse - Source to AST
+     * Analyze - Detect and Validate types
+     * Emit - Create language specific modules
+
+                                 ----                                 
+
+                         C'Dent Design Goals
+     
+     * Find a usable OO subset
+     * Reuse when possible
+       * Runtime when not possible
+     * Make Foo.cd.* modules actually work.
+     * Make Foo.* modules nice to read.
+     * Don't use more runtime than you need.
+
+                                 ----                                 
+
+                         C'Dent Comparisons
+     
+     People have compared C'Dent to things like:
+     
+     * Parrot (inside out)
+     * SWIG
+     * CORBA
+     * Others??
+
+                                 ----                                 
+
+                           Error Handling
+     
+     * Demo a current parse error
+     * Type errors are detected after parsing
+       * AST contains line number info
+
+                                 ----                                 
+
+                           Advanced Topics
+     
+     So far I've made C'Dent sound like a trivial project. It's not.
+     
+     There are some deep issues to wrestle with.
+
+                                 ----                                 
+
+                      Strong Typing (Advanced)
+     
+     * C'Dent needs to have typed components
+     * That's only way to generate equivalent code.
+     
+
+                                 ----                                 
+
+                      Strong Typing (Advanced)
+     
+     * C'Dent needs to have typed components
+     * That's only way to generate equivalent code.
+     
+     * Consider this simple Perl example:
+     
+         if ($x == 42) ...
+         if ($x eq "O HAI") ...
+     
+
+                                 ----                                 
+
+                      Strong Typing (Advanced)
+     
+     * C'Dent needs to have typed components
+     * That's only way to generate equivalent code.
+     
+     * Consider this simple Perl example:
+     
+         if ($x == 42) ...
+         if ($x eq "O HAI") ...
+     
+     * Python et al are not strongly typed
+
+                                 ----                                 
+
+                      Strong Typing (Advanced)
+     
+     * C'Dent needs to have typed components
+     * That's only way to generate equivalent code.
+     
+     * Consider this simple Perl example:
+     
+         if ($x == 42) ...
+         if ($x eq "O HAI") ...
+     
+     * Python et al are not strongly typed
+     * Haskell has shown great strides in implicit typing
+     
+     * C'Dent can do implicitly type everything
+       * Will it be too ugly??
+     * Typing is done in the validation phase
+
+                                 ----                                 
+
+                 External Module Wrapping (Advanced)
+     
+     * Everything that a C'Dent module imports must be C'Dent
+     * if foo.cd.py imports 'twisted', it won't work on Perl
+     
+     * Need to define a C'Dent wrapper for common modules
+
+                                 ----                                 
+
+                    C Code Generation (Advanced)
+     
+     * C'Dent can emit C or C++ for Python
+     * SWIG can wrap it back to a Python extension module
+     
+        foo.cd.py > foo.cpp > foo.o/foo.h > SWIG > foo.py
+
+                                 ----                                 
+
+                               TestML
+     
+     * What good are modules without tests?
+     * TestML is an agnostic unit test language
+       * Implemented in every C'Dent target language
+     * TDD meets Acmeism!
+
+                                 ----                                 
+
+                               AcmeDoc
+     
+     * Not the real name...
+     * What good are modules without documentation?
+     * AcmeDoc? is like C'Dent for doc
+     * Foo.rst > Foo.pod > Foo.asc > Foo.wiki > Foo.html
+
+                                 ----                                 
+
+                          Hacking on C'Dent
+     
+     * I want to write a C'Dent Java Emitter
+
+                                 ----                                 
+
+                          Hacking on C'Dent
+     
+     * I want to write a C'Dent Java Emitter
+     * Right NOW!!!!
+     
+
+                                 ----                                 
+
+                          Hacking on C'Dent
+     
+     * I want to write a C'Dent Java Emitter
+     * Right NOW!!!!
+     
+       Time permitting... let's:
+       
+         * Write cdent.emitter.java.py
+         * Upload a new version of C'Dent to PyPi
+
+                                 ----                                 
+
+                               The End
+
+                           Any Questions?
+
+                                  .
+
+                                  .
+
+                          Slides are here:
+
+         http://ingydotnet.github.com/cdent-seapig2010-talk/
+
+                                 ----                                 
+
+
